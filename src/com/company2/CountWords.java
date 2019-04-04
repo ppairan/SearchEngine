@@ -63,23 +63,29 @@ public class CountWords {
         }
     }
 
-    public static void CountWordPerFile(Path p) {
+    public static void CountWordPerFile(Path p, Path p2) {
         String path = p.toString();
         String zeile;
         try {
             FileReader fr = new FileReader(path);
             BufferedReader br = new BufferedReader(fr);
+
             zeile = br.readLine();
+
+
             while (zeile != null) {
                 if (!zeile.startsWith("/")) {
                     countingAllWords(zeile);
                 }
                 zeile = br.readLine();
+
             }
 
-            FileWriter fw = new FileWriter(path,true);
+
+            FileWriter fw = new FileWriter(path,false);
+            fw.write("\\" +p2.subpath(3, 10).toString()+'\n');
             for (int i = 0; i < countingWords; i++) {
-                fw.write(i + ". " + words[i] + " , " + counts[i] + "\n");
+                fw.write(i + ". " + words[i] + " , " + counts[i] + '\n');
 
             }
             fw.close();

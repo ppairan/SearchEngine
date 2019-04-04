@@ -20,9 +20,9 @@ public class CreatedDataWithStreams {
     }
 
 
-    public static void Wordcount(Path p) {
+    public static void Wordcount(Path p, Path p2) {
         try {
-            CountWords.CountWordPerFile(p);
+            CountWords.CountWordPerFile(p, p2);
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -66,9 +66,9 @@ public class CreatedDataWithStreams {
 
             Counter counter = new Counter();
             final Map<File, Path> txtFilesjavaFiles = javaFiles.map(javaFile -> Map.entry(createData(javaFile, counter), javaFile)).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
-            txtFilesjavaFiles.entrySet().forEach(filePathEntry -> writePath(filePathEntry.getKey(), filePathEntry.getValue()));
-            txtFilesjavaFiles.keySet().forEach((wC) -> Wordcount(wC.toPath()));
-           // txtFilesjavaFiles.entrySet().forEach(filePathEntry -> writePath(filePathEntry.getKey(), filePathEntry.getValue()));
+            // txtFilesjavaFiles.entrySet().forEach(filePathEntry -> writePath(filePathEntry.getKey(), filePathEntry.getValue()));
+            txtFilesjavaFiles.keySet().forEach((wC) -> Wordcount(wC.toPath(), txtFilesjavaFiles.get(wC)));
+            // txtFilesjavaFiles.entrySet().forEach(filePathEntry -> writePath(filePathEntry.getKey(), filePathEntry.getValue()));
 
         } catch (Exception e) {
             e.printStackTrace();
