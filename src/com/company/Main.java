@@ -1,8 +1,6 @@
 package com.company;
 
-import com.company2.CreatedDataWithStreams;
-
-import java.util.Scanner;
+import com.PascalSearchEngine.CreatedDataWithStreams;
 
 public class Main {
 
