@@ -75,7 +75,10 @@ return path;
             final Map<File, Path> txtFilesjavaFiles = javaFiles.map(javaFile -> Map.entry(createData(javaFile, counter), javaFile)).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
             txtFilesjavaFiles.keySet().forEach((wC) -> Wordcount(wC.toPath(), txtFilesjavaFiles.get(wC)));
 
-            AllStreams.findtxtFiles(input);
+            String filename = "C:\\Users\\pascal.pairan\\Documents\\indexierung";
+            Stream<Path> txtfiles = AllStreams.findtxtFiles(filename);
+            List<String> result = txtfiles.map(x->x.toString()).collect(Collectors.toList());
+            Merging.merging(result);
 
         } catch (Exception e) {
             e.printStackTrace();

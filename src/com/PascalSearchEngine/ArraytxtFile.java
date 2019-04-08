@@ -1,21 +1,23 @@
 package com.PascalSearchEngine;
 
 import java.util.ArrayList;
+import java.util.List;
 
-public class ArrayListClass {
+public class ArraytxtFile {
     private String filename;
 
-    private ArrayList<String> list = new ArrayList<>();
+    private List<String> list = new ArrayList<>();
 
-    public ArrayList<String> getList() {
+    public List<String> getList() {
         return list;
     }
 
-    public void setList(ArrayList<String> list) {
+    public void setList(List<String> list) {
         this.list = list;
+
     }
 
-    public ArrayListClass(String filename) {
+    public ArraytxtFile(String filename) {
         this.filename = filename;
     }
 
