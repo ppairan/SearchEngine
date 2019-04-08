@@ -5,7 +5,7 @@ public class IndexedWords {
     private String word;
     private int count;
 
-    public IndexedWord(int position, String word, int count) {
+    public IndexedWords(int position, String word, int count) {
         this.position = position;
         this.word = word;
         this.count = count;
@@ -33,6 +33,9 @@ public class IndexedWords {
 
     public void setCount(int count) {
         this.count = count;
+    }
+    public String toString() {
+        return this.position + ". " + this.word + " " + this.count;
     }
 }
 

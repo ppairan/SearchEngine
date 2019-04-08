@@ -1,6 +1,6 @@
 package com.company;
 
-import com.PascalSearchEngine.CreatedDataWithStreams;
+import com.SearchEngineWithObjektorientierung;
 
 public class Main {
 
@@ -11,7 +11,7 @@ public class Main {
         // Scanner sc = new Scanner(System.in);
         // String input = sc.next();
         String input = filename;
-        CreatedDataWithStreams.CreateAllData(input);
+        SearchEngineWithObjektorientierung.SearchEngine(input);
 
     }
 }

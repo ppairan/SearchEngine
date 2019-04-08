@@ -20,7 +20,7 @@ public class Merging {
     }
 
 
-/*
+
 
 
     public static void reading(String listelesen) {
@@ -38,5 +38,5 @@ public class Merging {
             e.printStackTrace();
         }
     }
-*/
+
 }
