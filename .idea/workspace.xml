@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b79b4a02-f443-4135-94e8-78a53ab7dc3e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/Merging/Counter2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Merging/MergedIndexWords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Merging/MergingProgramm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Merging/TxtIndexer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Merging/TxtTokenizer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Merging/WritingTxtToAll.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/PascalSearchEngine/WrintingFromJavaFiles.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/PascalSearchEngine/AllStreams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/PascalSearchEngine/AllStreams.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/PascalSearchEngine/Counter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/PascalSearchEngine/Counter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/PascalSearchEngine/FileIndexer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/PascalSearchEngine/FileIndexer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/PascalSearchEngine/IndexedWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/PascalSearchEngine/IndexedWords.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/PascalSearchEngine/Merging.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/PascalSearchEngine/Merging.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/PascalSearchEngine/SplitNewToken.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/PascalSearchEngine/txtindexer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/SearchEngineWithObjektorientierung.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/SearchEngineWithObjektorientierung.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="b79b4a02-f443-4135-94e8-78a53ab7dc3e" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,8 +38,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/Final/FinalTokenizer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="41" column="27" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="27" />
+            <state relative-caret-position="362">
+              <caret line="27" column="18" lean-forward="true" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -273,7 +254,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554902743632" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554972855159" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -349,7 +330,14 @@
       <option name="project" value="LOCAL" />
       <updated>1554715527973</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Funktioniert am 11.04.2019 10:50">
+      <created>1554972648142</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1554972648142</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView">
@@ -363,7 +351,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22867803" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -474,7 +461,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="montag 8.04.2019" />
     <MESSAGE value="Objektorietierung von Gerrit funktioniert" />
-    <option name="LAST_COMMIT_MESSAGE" value="Objektorietierung von Gerrit funktioniert" />
+    <MESSAGE value="Funktioniert am 11.04.2019 10:50" />
+    <option name="LAST_COMMIT_MESSAGE" value="Funktioniert am 11.04.2019 10:50" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -779,8 +767,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/Final/FinalTokenizer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="41" column="27" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="27" />
+        <state relative-caret-position="362">
+          <caret line="27" column="18" lean-forward="true" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
