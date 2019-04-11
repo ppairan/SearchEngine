@@ -14,6 +14,8 @@ public static List<IndexedWords> indexFile(String filename) throws IOException {
     List<String> words = FileTokenizer.tokenizeFile(filename);
     Collections.sort(words);
 
+
+
     Stream<String> wordStream = words.stream();
     final Counter counter = new Counter();
     final Stack<IndexedWords> indexedWords = new Stack<>();
@@ -34,5 +36,6 @@ public static List<IndexedWords> indexFile(String filename) throws IOException {
     });
 
     return indexedWords;
+
 }
 }

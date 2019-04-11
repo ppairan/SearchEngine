@@ -16,6 +16,6 @@ public class AllStreams {
     }
 
     public static Stream<Path> findtxtFiles(String pathFromtxt) throws IOException {
-        return Files.walk(Paths.get(pathFromtxt)).filter(f->f.toString().endsWith(".txt") && !f.toString().contains("all"));
+        return Files.walk(Paths.get(pathFromtxt)).filter(f->f.toString().endsWith(".txt"));
     }
 }

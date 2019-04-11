@@ -1,22 +1,22 @@
-package com.PascalSearchEngine;
+package com.Merging;
 
-public class IndexedWords {
-    private int position;
+public class MergedIndexWords {
+    private String data;
     private String word;
     private int count;
 
-    public IndexedWords(int position, String word, int count) {
-        this.position = position;
+    public MergedIndexWords(String word, String data, int count) {
+        this.data = data;
         this.word = word;
         this.count = count;
     }
 
-    public int getPosition() {
-        return this.position;
+    public String getData() {
+        return this.data;
     }
 
-    public void setPosition(int position) {
-        this.position = position;
+    public void setData(String data) {
+        this.data = data;
     }
 
     public String getWord() {
@@ -34,8 +34,8 @@ public class IndexedWords {
     public void setCount(int count) {
         this.count = count;
     }
+
     public String toString() {
-        return this.position + ". " + this.word + " " + this.count +",";
+        return this.word + "= [" + this.data + "," + this.count+"]";
     }
 }
-

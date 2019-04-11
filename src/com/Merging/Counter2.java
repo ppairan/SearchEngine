@@ -1,6 +1,6 @@
-package com.PascalSearchEngine;
+package com.Merging;
 
-public class Counter {
+public class Counter2 {
     int position = 0;
 
     public int next(){

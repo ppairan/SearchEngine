@@ -2,15 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b79b4a02-f443-4135-94e8-78a53ab7dc3e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/PascalSearchEngine/Counter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/PascalSearchEngine/FileIndexer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/SearchEngineWithObjektorientierung.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Merging/Counter2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Merging/MergedIndexWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Merging/MergingProgramm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Merging/TxtIndexer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Merging/TxtTokenizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Merging/WritingTxtToAll.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/PascalSearchEngine/WrintingFromJavaFiles.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/GerritTestWieseWIP/IndexedWord.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/PascalSearchEngine/CreatedDataWithStreams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/PascalSearchEngine/CreatedDataWithStreams.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/PascalSearchEngine/FileTokenizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/PascalSearchEngine/FileTokenizer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/PascalSearchEngine/AllStreams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/PascalSearchEngine/AllStreams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/PascalSearchEngine/Counter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/PascalSearchEngine/Counter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/PascalSearchEngine/FileIndexer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/PascalSearchEngine/FileIndexer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/PascalSearchEngine/IndexedWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/PascalSearchEngine/IndexedWords.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/PascalSearchEngine/Merging.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/PascalSearchEngine/Merging.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/PascalSearchEngine/SplitNewToken.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/PascalSearchEngine/txtindexer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/SearchEngineWithObjektorientierung.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/SearchEngineWithObjektorientierung.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -25,8 +33,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="357">
+              <caret line="21" column="20" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -35,49 +43,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/PascalSearchEngine/IndexedWords.java">
+        <entry file="file://$PROJECT_DIR$/src/com/Merging/WritingTxtToAll.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="469">
-              <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+            <state relative-caret-position="391">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
               <folding>
-                <element signature="e#323#324#0" expanded="true" />
-                <element signature="e#359#360#0" expanded="true" />
-                <element signature="e#404#405#0" expanded="true" />
-                <element signature="e#444#445#0" expanded="true" />
-                <element signature="e#475#476#0" expanded="true" />
-                <element signature="e#507#508#0" expanded="true" />
-                <element signature="e#547#548#0" expanded="true" />
-                <element signature="e#579#580#0" expanded="true" />
-                <element signature="e#608#609#0" expanded="true" />
-                <element signature="e#641#642#0" expanded="true" />
-                <element signature="e#680#681#0" expanded="true" />
-                <element signature="e#714#715#0" expanded="true" />
-                <element signature="e#746#747#0" expanded="true" />
-                <element signature="e#820#821#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/PascalSearchEngine/CreatedDataWithStreams.java">
+        <entry file="file://$PROJECT_DIR$/src/com/Final/FinalTokenizer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="79" column="13" selection-start-line="73" selection-start-column="11" selection-end-line="79" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#Wordcount#0;class#CreatedDataWithStreams#0" />
-                <element signature="method#writePath#0;class#CreatedDataWithStreams#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/PascalSearchEngine/ArraytxtFile.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="600">
+              <caret line="41" column="27" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -86,10 +67,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/PascalSearchEngine/FileTokenizer.java">
+        <entry file="file://$PROJECT_DIR$/src/com/Merging/MergingProgramm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+            <state relative-caret-position="163">
+              <caret line="17" column="60" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -98,10 +79,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/PascalSearchEngine/FileIndexer.java">
+        <entry file="file://$PROJECT_DIR$/src/com/Merging/TxtIndexer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+            <state relative-caret-position="537">
+              <caret line="38" column="1" lean-forward="true" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -110,25 +91,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/PascalSearchEngine/Merging.java">
+        <entry file="file://$PROJECT_DIR$/src/com/Merging/TxtTokenizer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/SearchEngineWithObjektorientierung.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="493">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
             </state>
           </provider>
         </entry>
@@ -150,6 +116,23 @@
       <find>file</find>
       <find>all</find>
       <find>.txt</find>
+      <find>counter</find>
+      <find>copyright</find>
+      <find>adduser</find>
+      <find>springboottest=</find>
+      <find>getconnection=</find>
+      <find>next=</find>
+      <find>setdate=</find>
+      <find>|||||</find>
+      <find>=|||||</find>
+      <find>true</find>
+      <find>true=</find>
+      <find>existiert</find>
+      <find>exis</find>
+      <find>|</find>
+      <find>!fert</find>
+      <find>!fertig!</find>
+      <find>private=</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -163,9 +146,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/sample/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Output.java" />
-        <option value="$PROJECT_DIR$/src/com/company/SearchInput.java" />
         <option value="$PROJECT_DIR$/src/com/company/ReturnMenue.java" />
         <option value="$PROJECT_DIR$/src/com/company/FileNames.java" />
         <option value="$PROJECT_DIR$/src/com/company/Sorting.java" />
@@ -188,17 +168,35 @@
         <option value="$PROJECT_DIR$/src/com/PascalSearchEngine/CompactClass.java" />
         <option value="$PROJECT_DIR$/src/com/PascalSearchEngine/Listitems.java" />
         <option value="$PROJECT_DIR$/src/com/PascalSearchEngine/ArrayListClass.java" />
-        <option value="$PROJECT_DIR$/src/com/PascalSearchEngine/AllStreams.java" />
         <option value="$PROJECT_DIR$/src/com/PascalSearchEngine/ArraytxtFile.java" />
         <option value="$PROJECT_DIR$/src/com/PascalSearchEngine/ArrayList2.java" />
-        <option value="$PROJECT_DIR$/src/com/PascalSearchEngine/FileTokenizer.java" />
-        <option value="$PROJECT_DIR$/src/com/PascalSearchEngine/IndexedWords.java" />
-        <option value="$PROJECT_DIR$/src/com/PascalSearchEngine/Counter.java" />
-        <option value="$PROJECT_DIR$/src/com/PascalSearchEngine/FileIndexer.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/PascalSearchEngine/Merging.java" />
-        <option value="$PROJECT_DIR$/src/com/SearchEngineWithObjektorientierung.java" />
         <option value="$PROJECT_DIR$/src/com/PascalSearchEngine/CreatedDataWithStreams.java" />
+        <option value="$PROJECT_DIR$/src/com/PascalSearchEngine/txtindexer.java" />
+        <option value="$PROJECT_DIR$/src/com/PascalSearchEngine/TxtWords.java" />
+        <option value="$PROJECT_DIR$/src/com/PascalSearchEngine/TxtTokenizer.java" />
+        <option value="$PROJECT_DIR$/src/com/PascalSearchEngine/FileWriter.java" />
+        <option value="$PROJECT_DIR$/src/com/PascalSearchEngine/FileWriting.java" />
+        <option value="$PROJECT_DIR$/src/com/PascalSearchEngine/FileIndexer.java" />
+        <option value="$PROJECT_DIR$/src/com/PascalSearchEngine/Counter.java" />
+        <option value="$PROJECT_DIR$/src/com/PascalSearchEngine/WrintingFromJavaFiles.java" />
+        <option value="$PROJECT_DIR$/src/com/PascalSearchEngine/IndexedWords.java" />
+        <option value="$PROJECT_DIR$/src/com/Merging/Counter.java" />
+        <option value="$PROJECT_DIR$/src/com/Merging/txtindexer_notready.java" />
+        <option value="$PROJECT_DIR$/src/com/PascalSearchEngine/Merging.java" />
+        <option value="$PROJECT_DIR$/src/com/PascalSearchEngine/AllStreams.java" />
+        <option value="$PROJECT_DIR$/src/com/SearchEngineWithObjektorientierung.java" />
+        <option value="$PROJECT_DIR$/src/com/Merging/AllSaver.java" />
+        <option value="$PROJECT_DIR$/src/com/Merging/MergedIndexWords.java" />
+        <option value="$PROJECT_DIR$/src/com/Final/FinalIndex2.java" />
+        <option value="$PROJECT_DIR$/src/com/Final/FinalIndex.java" />
+        <option value="$PROJECT_DIR$/src/com/Final/FinalIndexer.java" />
+        <option value="$PROJECT_DIR$/src/com/Merging/TxtTokenizer.java" />
+        <option value="$PROJECT_DIR$/src/com/Merging/MergingProgramm.java" />
+        <option value="$PROJECT_DIR$/src/com/PascalSearchEngine/FileTokenizer.java" />
+        <option value="$PROJECT_DIR$/src/com/Merging/TxtIndexer.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/Merging/WritingTxtToAll.java" />
+        <option value="$PROJECT_DIR$/src/com/Final/FinalTokenizer.java" />
       </list>
     </option>
   </component>
@@ -220,8 +218,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -252,7 +250,14 @@
               <item name="SearchEngine" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="GerritTestWieseWIP" type="462c0819:PsiDirectoryNode" />
+              <item name="Final" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SearchEngine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SearchEngine" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="Merging" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SearchEngine" type="b2602c69:ProjectViewProjectNode" />
@@ -268,8 +273,18 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554715308003" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554902743632" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.Final" />
+      <recent name="com.Merging" />
+      <recent name="com.PascalSearchEngine" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -327,7 +342,14 @@
       <option name="project" value="LOCAL" />
       <updated>1554705373019</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Objektorietierung von Gerrit funktioniert">
+      <created>1554715527973</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1554715527973</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView">
@@ -343,7 +365,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22441365" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22867803" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -352,15 +374,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.26435536" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4978678" visible="true" weight="0.2611051" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32936078" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50053304" side_tool="true" weight="0.26435536" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5021322" side_tool="true" weight="0.2611051" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32936078" />
-      <window_info anchor="bottom" id="Messages" order="10" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49946696" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -370,6 +392,34 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22441365" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.26435536" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32936078" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50053304" side_tool="true" weight="0.26435536" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32936078" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32936078" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.32995737" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.History.Properties">
     <option name="COLUMN_ORDER">
@@ -381,65 +431,56 @@
       </list>
     </option>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="montag 8.04.2019" />
-    <option name="LAST_COMMIT_MESSAGE" value="montag 8.04.2019" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/PascalSearchEngine/CreatedDataWithStreams.java</url>
-          <line>70</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Objektorietierung von Gerrit funktioniert" />
+    <option name="LAST_COMMIT_MESSAGE" value="Objektorietierung von Gerrit funktioniert" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/sample/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/company/Output.java" />
-    <entry file="jar://$USER_HOME$/Downloads/jdk-11.0.2_windows-x64_bin/jdk-11.0.2/lib/src.zip!/java.base/sun/nio/fs/WindowsException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="84" selection-start-line="84" selection-end-line="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/jdk-11.0.2_windows-x64_bin/jdk-11.0.2/lib/src.zip!/java.base/java/nio/file/Files.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1762" selection-start-line="1762" selection-end-line="1762" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/FileNames.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/company/Sorting.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/company/CleanScreen.java" />
-    <entry file="jar://$USER_HOME$/Downloads/jdk-11.0.2_windows-x64_bin/jdk-11.0.2/lib/src.zip!/java.base/java/util/stream/AbstractPipeline.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="228" selection-start-line="228" selection-end-line="228" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/OLD/IndexingOutput.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/OLD/Path.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/OLD/ReturnMenue.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/OLD/Menue.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/OLD/SearchInput.java" />
-    <entry file="jar://$USER_HOME$/Downloads/jdk-11.0.2_windows-x64_bin/jdk-11.0.2/lib/src.zip!/java.base/java/lang/AutoCloseable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="50" column="17" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/Downloads/jdk-11.0.2_windows-x64_bin/jdk-11.0.2/lib/src.zip!/java.base/java/util/stream/BaseStream.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
@@ -454,21 +495,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/Downloads/jdk-11.0.2_windows-x64_bin/jdk-11.0.2/lib/src.zip!/java.base/java/io/BufferedReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="313" column="11" selection-start-line="313" selection-start-column="11" selection-end-line="313" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/OLD/Spliting.java" />
-    <entry file="jar://$USER_HOME$/Downloads/jdk-11.0.2_windows-x64_bin/jdk-11.0.2/lib/src.zip!/java.base/java/util/function/Consumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/Downloads/jdk-11.0.2_windows-x64_bin/jdk-11.0.2/lib/src.zip!/java.base/java/lang/ref/Reference.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -482,16 +509,6 @@
           <caret line="496" selection-start-line="496" selection-end-line="496" />
           <folding>
             <element signature="e#18478#18479#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/PascalSearchEngine/SplitNewToken.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -546,129 +563,61 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/PascalSearchEngine/ArrayList2.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/PascalSearchEngine/CountWords.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#countingAllWords#0;class#CountWords#0" />
-            <element signature="method#CountWordPerFile#0;class#CountWords#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/PascalSearchEngine/AllStreams.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="18" column="117" selection-start-line="18" selection-start-column="117" selection-end-line="18" selection-end-column="117" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/PascalSearchEngine/ArraytxtFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/GerritTestWieseWIP/IndexedWord.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-          <folding>
-            <element signature="e#466#467#0" expanded="true" />
-            <element signature="e#493#494#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/PascalSearchEngine/FileTokenizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/PascalSearchEngine/CountWords.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/PascalSearchEngine/ArraytxtFile.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/GerritTestWieseWIP/IndexedWord.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/PascalSearchEngine/CreatedDataWithStreams.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/GerritTestWieseWIP/WortSuchen.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/PascalSearchEngine/TxtWords.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/PascalSearchEngine/SplitNewToken.java" />
     <entry file="file://$PROJECT_DIR$/src/com/PascalSearchEngine/IndexedWords.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+        <state relative-caret-position="425">
+          <caret line="37" column="68" selection-start-line="37" selection-start-column="68" selection-end-line="37" selection-end-column="68" />
           <folding>
-            <element signature="e#323#324#0" expanded="true" />
-            <element signature="e#359#360#0" expanded="true" />
-            <element signature="e#404#405#0" expanded="true" />
-            <element signature="e#444#445#0" expanded="true" />
-            <element signature="e#475#476#0" expanded="true" />
-            <element signature="e#507#508#0" expanded="true" />
-            <element signature="e#547#548#0" expanded="true" />
-            <element signature="e#579#580#0" expanded="true" />
-            <element signature="e#608#609#0" expanded="true" />
-            <element signature="e#641#642#0" expanded="true" />
-            <element signature="e#680#681#0" expanded="true" />
-            <element signature="e#714#715#0" expanded="true" />
             <element signature="e#746#747#0" expanded="true" />
-            <element signature="e#820#821#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/PascalSearchEngine/Counter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#100#101#0" expanded="true" />
-            <element signature="e#136#137#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/PascalSearchEngine/FileIndexer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#825#826#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/PascalSearchEngine/Merging.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="68">
+          <caret line="4" column="31" selection-end-line="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/GerritTestWieseWIP/WortSuchen.java">
+    <entry file="file://$PROJECT_DIR$/src/com/PascalSearchEngine/Counter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#txtfind#0;class#WortSuchen#0" />
-            <element signature="method#searching#0;class#WortSuchen#0" />
-          </folding>
+        <state relative-caret-position="102">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/Merging/AllSaver.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/Final/MergedIndexFinal.java" />
+    <entry file="jar://$USER_HOME$/Downloads/jdk-11.0.2_windows-x64_bin/jdk-11.0.2/lib/src.zip!/java.base/java/util/List.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="218">
+          <caret line="137" column="17" selection-start-line="137" selection-start-column="17" selection-end-line="137" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Final/FinalIndex2.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/Final/FinalIndexer.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/Final/FinalIndex.java" />
+    <entry file="jar://$USER_HOME$/Downloads/jdk-11.0.2_windows-x64_bin/jdk-11.0.2/lib/src.zip!/java.base/java/util/regex/Matcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="644" selection-start-line="644" selection-end-line="644" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/PascalSearchEngine/WrintingFromJavaFiles.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="45" selection-start-line="18" selection-start-column="12" selection-end-line="19" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -677,25 +626,240 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/SearchEngineWithObjektorientierung.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="249">
+          <caret line="17" column="55" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/PascalSearchEngine/CreatedDataWithStreams.java">
+    <entry file="file://$PROJECT_DIR$/src/com/PascalSearchEngine/AllStreams.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="79" column="13" selection-start-line="73" selection-start-column="11" selection-end-line="79" selection-end-column="13" />
+        <state relative-caret-position="306">
+          <caret line="18" column="60" selection-start-line="18" selection-start-column="60" selection-end-line="18" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#Wordcount#0;class#CreatedDataWithStreams#0" />
-            <element signature="method#writePath#0;class#CreatedDataWithStreams#0" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/Downloads/jdk-11.0.2_windows-x64_bin/jdk-11.0.2/lib/src.zip!/java.base/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/jdk-11.0.2_windows-x64_bin/jdk-11.0.2/lib/src.zip!/java.base/java/io/BufferedReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="116" selection-start-line="116" selection-end-line="116" />
+          <folding>
+            <element signature="e#3008#3009#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/jdk-11.0.2_windows-x64_bin/jdk-11.0.2/lib/src.zip!/java.base/java/io/Reader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="165" selection-start-line="165" selection-end-line="165" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/jdk-11.0.2_windows-x64_bin/jdk-11.0.2/lib/src.zip!/java.base/java/util/function/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Merging/Counter2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#119#120#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/jdk-11.0.2_windows-x64_bin/jdk-11.0.2/lib/src.zip!/java.base/java/util/LinkedHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="366" column="11" selection-start-line="366" selection-start-column="11" selection-end-line="366" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Merging/MergedIndexWords.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="37" column="28" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
+          <folding>
+            <element signature="e#445#446#0" expanded="true" />
+            <element signature="e#477#478#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/PascalSearchEngine/FileTokenizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/PascalSearchEngine/FileIndexer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="32" column="57" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Merging/TxtTokenizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/jdk-11.0.2_windows-x64_bin/jdk-11.0.2/lib/src.zip!/java.base/jdk/internal/misc/Unsafe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1275" selection-start-line="1275" selection-end-line="1275" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Merging/MergingProgramm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="17" column="60" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Merging/TxtIndexer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="537">
+          <caret line="38" column="1" lean-forward="true" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Merging/WritingTxtToAll.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="20" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Final/FinalTokenizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="41" column="27" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>untitled104</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
