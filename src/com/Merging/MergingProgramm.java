@@ -1,6 +1,8 @@
 package com.Merging;
 
+import com.Final.FinalTokenizer;
 import com.PascalSearchEngine.AllStreams;
+import com.PascalSearchEngine.FileIndexer;
 
 import java.io.FileWriter;
 import java.io.IOException;
@@ -15,8 +17,9 @@ public class MergingProgramm {
 
     public static void initialize2(Path path, Counter2 counter2 ){
         try {
-            List<MergedIndexWords> words = TxtIndexer.indexFile(path.toString());
-            WritingTxtToAll.readingAllTxtFilesAndWriting(words);
+            TxtTokenizer.readTxtfile(path.toString());
+            FileIndexer.istmiregal(path.toString());
+
         }catch (IOException e){e.printStackTrace();}
     }
 
@@ -26,6 +29,7 @@ public class MergingProgramm {
             Counter2 counter2 = new Counter2();
             try (Stream<Path> txtfiles = AllStreams.findtxtFiles(txtfilename)) {
                 txtfiles.forEach(x -> initialize2(x, counter2));
+
             }
         } catch (IOException e) {
             e.printStackTrace();

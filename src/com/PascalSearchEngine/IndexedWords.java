@@ -34,6 +34,7 @@ public class IndexedWords {
     public void setCount(int count) {
         this.count = count;
     }
+
     public String toString() {
         return this.position + ". " + this.word + " " + this.count +",";
     }

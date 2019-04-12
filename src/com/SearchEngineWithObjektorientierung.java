@@ -26,9 +26,10 @@ public class SearchEngineWithObjektorientierung {
             Counter counter = new Counter();
             Stream<Path> javaFiles = AllStreams.findJavaFiles(filename);
             javaFiles.forEach(i -> initialize(i , counter));
-            for (int i = 0; i> filename.length(); i++ ){
-                MergingProgramm.readall(filename);
-            }
+            Stream<Path> txtfiles = AllStreams.findtxtFiles("C:\\Users\\pascal.pairan\\Documents\\indexierung");
+
+              //  MergingProgramm.readall(txtfiles.toString());
+
 
         }catch(IOException e){e.printStackTrace();}
     }
